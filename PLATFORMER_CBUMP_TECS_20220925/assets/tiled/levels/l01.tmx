@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="60" height="34" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="44">
+ <editorsettings>
+  <export target="l01.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="images" tilewidth="384" tileheight="238" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="384" height="238" source="deco/cartoon_car_0029.png"/>
+  </tile>
+  <tile id="1">
+   <image width="384" height="238" source="deco/cartoon_car_0040.png"/>
+  </tile>
+ </tileset>
+ <group id="6" name="DECO">
+  <objectgroup id="7" name="images">
+   <object id="24" gid="1" x="720" y="1024" width="154.891" height="96"/>
+   <object id="25" gid="2" x="1200" y="669" width="141.983" height="88" rotation="15"/>
+  </objectgroup>
+  <objectgroup id="8" name="shapes">
+   <object id="7" x="512" y="832" width="192" height="192">
+    <ellipse/>
+   </object>
+   <object id="9" x="384" y="896" width="64" height="128"/>
+   <object id="10" x="416" y="864" width="32" height="32"/>
+   <object id="11" x="480" y="960" width="32" height="64"/>
+   <object id="12" x="680" y="992" width="24" height="32"/>
+   <object id="13" x="296" y="432" width="80" height="80">
+    <ellipse/>
+   </object>
+   <object id="14" x="640" y="496" width="120" height="120">
+    <ellipse/>
+   </object>
+   <object id="15" x="584" y="104" width="120" height="120">
+    <ellipse/>
+   </object>
+   <object id="16" x="376" y="616">
+    <polygon points="0,0 192,-200 -144,-368 -136,-728 -88,-392 240,-216"/>
+   </object>
+   <object id="17" x="1296" y="1024">
+    <polygon points="0,0 448,-193.407 -336,-355.868 -317.333,-704 -205.333,-379.077 560,-208.879"/>
+   </object>
+   <object id="18" x="920" y="320" width="120" height="352">
+    <ellipse/>
+   </object>
+  </objectgroup>
+ </group>
+ <objectgroup id="2" name="bg"/>
+ <objectgroup color="#000000" id="3" name="ground">
+  <object id="1" x="0" y="1024" width="1920" height="64"/>
+  <object id="2" x="0" y="64" width="64" height="960"/>
+  <object id="3" x="1856" y="64" width="64" height="960"/>
+  <object id="4" x="0" y="0" width="1920" height="64"/>
+  <object id="19" x="544" y="896" width="128" height="32"/>
+  <object id="20" x="752" y="832" width="208" height="32"/>
+  <object id="21" x="960" y="728" width="640" height="32"/>
+  <object id="22" x="1760" y="832" width="96" height="32"/>
+  <object id="23" x="1584" y="928" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="9" name="actors">
+  <object id="5" name="player1" x="224" y="408">
+   <polygon points="0,0 32,0 0,-48 -32,0 0,48 32,0"/>
+  </object>
+  <object id="6" name="nmeA" x="1392" y="688">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="26" name="nmeA" x="1256" y="936">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="27" name="nmeA" x="904" y="784">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="28" name="nmeA" x="344" y="952">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="29" name="hulk" x="856" y="928">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="30" name="hulk" x="1616" y="992">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="31" name="nmeA" x="1792" y="760">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="32" name="nmeA" x="1032" y="656">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="33" name="nmeA" x="1152" y="648">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="34" name="nmeA" x="1264" y="648">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="35" name="nmeA" x="1096" y="944">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="36" name="nmeA" x="608" y="824">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="37" name="nmeA" x="728" y="928">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="38" name="nmeA" x="1536" y="664">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="39" name="nmeA" x="1800" y="936">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="40" name="nmeA" x="1624" y="880">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="41" name="nmeA" x="1488" y="912">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="42" name="nmeA" x="136" y="960">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="43" name="nmeA" x="504" y="904">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="fg"/>
+</map>

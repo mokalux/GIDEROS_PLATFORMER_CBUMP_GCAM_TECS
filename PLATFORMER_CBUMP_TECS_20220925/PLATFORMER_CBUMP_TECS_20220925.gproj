@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties splash_v_image="" html5_fbinstant="0" html5_pwa="0" touchToMouse="1" html5_wasm="0" html5_mem="256" splash_h_image="" html5_symbols="0" iosDevice="0" osx_signingId="" version_code="1" windowHeight="0" mouseToTouch="1" win_org="gideros" ios_bundle="com.yourdomain.yourapp-ios" osx_installerId="" html5_pack="0" build_number="1" winrt_org="GiderosMobile" encryptCode="1" retinaDisplay="0" orientation="1" macos_bundle="com.yourdomain.yourapp-macos" backgroundColor="#ffffff" html5_host="" logicalWidth="640" autorotation="0" fps="60" osx_category="5" winrt_package="com.yourdomain.yourapp" html5_fbload="100" app_name="PF CBUMP TECS" atv_bundle="com.yourdomain.yourapp-atv" scaleMode="3" disableSplash="0" osx_org="GiderosMobile" osx_bundle="com.yourdomain." exportMode="0" version="1.0" html5_crash="" encryptAssets="1" tv_icon="" vsync="1" app_icon="" architecture="2" osx_domain="giderosmobile.com" splashScaleMode="0" macos_category="5" win_domain="gideros.com" windowWidth="0" logicalHeight="960" mainluaOnly="0" mouseTouchOrder="0">
+  <imageScales/>
+  <plugins>
+   <plugin name="Bump" enabled="1"/>
+   <plugin name="Easing" enabled="1"/>
+   <plugin name="JSON" enabled="1"/>
+   <plugin name="LuaFileSystem" enabled="1"/>
+   <plugin name="SceneManager" enabled="1"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="30" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="1" name="buildAab"/>
+    <property value="0" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="0" name="forOculus"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="0" name="oculusHT"/>
+    <property value="0" name="oculusHTR"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="_C">
+  <file name="assets/_C/cAI.lua"/>
+  <file name="assets/_C/cAnimation.lua"/>
+  <file name="assets/_C/cBody.lua"/>
+  <file name="assets/_C/cColor.lua"/>
+  <file name="assets/_C/cPosition.lua"/>
+  <file name="assets/_C/cScale.lua"/>
+  <file name="assets/_C/cStaticBody.lua"/>
+ </folder>
+ <folder name="_E">
+  <file name="assets/_E/eAnimatedImages.lua"/>
+  <file name="assets/_E/eNmeA.lua"/>
+  <file name="assets/_E/ePlayer1.lua"/>
+  <file name="assets/_E/eStatic.lua"/>
+ </folder>
+ <folder name="_S">
+  <file name="assets/_S/sActorsMovement.lua"/>
+  <file name="assets/_S/sAnimation.lua"/>
+  <file name="assets/_S/sBumpDynamicBodies.lua"/>
+  <file name="assets/_S/sBumpStaticBodies.lua"/>
+  <file name="assets/_S/sDebugDraw.lua"/>
+  <file name="assets/_S/sDrawable.lua"/>
+  <file name="assets/_S/sIA.lua"/>
+  <file name="assets/_S/sPlayer1Control.lua"/>
+ </folder>
+ <folder name="fonts"/>
+ <folder name="gfx">
+  <folder name="collectibles">
+   <file name="assets/gfx/collectibles/coin_20_x01.png"/>
+   <file name="assets/gfx/collectibles/collectibles_64_x01.png"/>
+  </folder>
+  <folder name="nmes">
+   <file name="assets/gfx/nmes/enemy01.png"/>
+   <file name="assets/gfx/nmes/turtle.png"/>
+  </folder>
+  <folder name="players">
+   <file name="assets/gfx/players/hero_64_x01.png"/>
+  </folder>
+  <folder name="tests">
+   <file name="assets/gfx/tests/hulk_idle.png"/>
+  </folder>
+ </folder>
+ <folder name="libs">
+  <file name="assets/libs/gcamV1a.lua"/>
+  <file excludeFromExecution="1" name="assets/libs/tiny.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/levelX.lua"/>
+  <file name="assets/scenes/menu.lua"/>
+ </folder>
+ <folder name="tiled">
+  <folder name="levels">
+   <folder name="deco">
+    <file name="assets/tiled/levels/deco/cartoon_car_0029.png"/>
+    <file name="assets/tiled/levels/deco/cartoon_car_0040.png"/>
+   </folder>
+   <folder name="grounds">
+    <file name="assets/tiled/levels/grounds/brown_qussair_granite.jpg"/>
+    <file name="assets/tiled/levels/grounds/cracked_gray_rock.jpg"/>
+   </folder>
+   <file excludeFromExecution="1" name="assets/tiled/levels/l01.lua"/>
+   <file name="assets/tiled/levels/l01.tmx"/>
+  </folder>
+  <file name="assets/tiled/tiled_ellipse.lua"/>
+  <file name="assets/tiled/tiled_levels.lua"/>
+  <file name="assets/tiled/tiled_polygon.lua"/>
+  <file name="assets/tiled/tiled_rectangle.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
