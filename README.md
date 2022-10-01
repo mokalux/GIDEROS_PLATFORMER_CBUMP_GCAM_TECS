@@ -1,4 +1,4 @@
-# GIDEROS PLATFORMER USING CBUMP, TINY ECS AND TILED
+# GIDEROS PLATFORMER STARTER KIT USING CBUMP, GCAM, TILED AND TINY ECS
 
 The aim of this repo is to lay down the first bricks of a platformer using ECS in Gideros Studio **http://giderosmobile.com**.
 
